@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Drag and Drop Demo</title>
+
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="main.css">
+
+	<script src="demo.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Drag and Drop Demos</h1>
+
+		<h2>Page Elements</h2>
+		<p>
+			Drag the elements on the right into the drop area.
+		</p>
+		<div id="dd-elements" class="clearfix">
+			<ul id="drag-elements">
+				<li draggable="true">Element One</li>
+				<li draggable="true">Element Two</li>
+				<li draggable="true">Element Three</li>
+				<li draggable="true">Element Four</li>
+				<li draggable="true">Element Five</li>
+			</ul>
+
+			<div id="drop-target-one">
+				Drop Here!
+			</div>
+		</div>
+
+		<h2>Text Files</h2>
+		<p>
+			Drag a .txt file from your computer onto the drop target.
+		</p>
+		<div id="dd-files">
+			Drop a .txt file here
+		</div>
+		<pre id="file-content"></pre>
+
+	</div>
+</body>
+</html>
