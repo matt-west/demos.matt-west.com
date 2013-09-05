@@ -114,9 +114,8 @@ window.onload = function() {
 				fileContentPane.innerHTML = "File: " + file.name + "\n\n" + content;
 			}
 		}
-
-		var blob = file.slice(0, file.size);
-    reader.readAsBinaryString(blob);
+		
+    reader.readAsBinaryString(file);
 	}
 	
 };
