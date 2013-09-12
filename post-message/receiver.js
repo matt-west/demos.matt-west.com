@@ -10,7 +10,7 @@ window.onload = function() {
 			return;
 
 		// Update the div element to display the message.
-		messageEle.innerHTML = "Message: " + e.data;
+		messageEle.innerHTML = "Message Received: " + e.data;
 	}
 
 	// Setup an event listener that calls receiveMessage() when the window
