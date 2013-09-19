@@ -10,7 +10,7 @@ window.onload = function() {
 		// Prevent any default browser behaviour.
 		e.preventDefault();
 
-		// Send a message with the text 'Hello Treehouse!' to the new window.
+		// Send a message with the text 'Hello Treehouse!' to the receiver window.
 		receiver.postMessage('Hello Treehouse!', 'http://demos.matt-west.com');
 	}
 
