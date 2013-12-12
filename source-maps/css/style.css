@@ -17,3 +17,11 @@ html {
 h1 {
   margin-top: 0;
 }
+
+img {
+  max-width: 100%;
+}
+
+span {
+  font-size: 0.8em;
+}
