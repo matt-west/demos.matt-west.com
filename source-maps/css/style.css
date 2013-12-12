@@ -1,0 +1,19 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  background: #333;
+  line-height: 1.5;
+}
+
+#page-wrapper {
+  width: 640px;
+  background: #FFFFFF;
+  padding: 1em;
+  margin: 1em auto;
+  border-top: 5px solid #69c773;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+}
+
+h1 {
+  margin-top: 0;
+}
