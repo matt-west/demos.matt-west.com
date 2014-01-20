@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Battery Status API Demo</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="page-wrapper">
+    <h1>Battery Status API Demo</h1>
+
+    <p id="msg"></p>
+
+    <!-- Battery Level Meter -->
+    <meter min="0" low="0.25" max="1" high="0.75" optimum="1" value="0" id="battery-meter"></meter>
+
+    <!-- Battery Stats -->
+    <table id="battery-stats">
+      <thead>
+        <tr>
+          <th>Battery Level</th>
+          <th>Charging Status</th>
+          <th>Charging Time</th>
+          <th>Discharging Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="battery-level"></td>
+          <td id="battery-status"></td>
+          <td id="battery-charging"></td>
+          <td id="battery-discharging"></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
