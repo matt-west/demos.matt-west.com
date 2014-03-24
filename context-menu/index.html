@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>HTML5 Context Menus - CodePen</title>
+
+  <meta name="robots" content="noindex">
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <div id="page-wrapper">
+  <h1>HTML5 Context Menu Demo</h1>
+  <p>Context menus are only supported in Firefox 8+</p>
+
+  <div id="target" contextmenu="menu">Right-click here to see the menu.</div>
+
+  <menu type="context" id="menu">
+<!--     <menuitem label="Tweet This Page" onclick="window.location='https://twitter.com/intent/tweet?text=' + document.title + ' ' + window.location.href;" icon="img/twitter.png"></menuitem>
+    <menuitem label="Digg This Page" onclick="window.location='http://digg.com/submit?url='+window.location;" icon="img/digg.png"></menuitem>
+    <menuitem label="Email This Page" onclick="window.location='mailto:?body='+window.location;"></menuitem> -->
+     <menuitem label="Action" onclick="..."></menuitem>
+      <!-- Nested Menu -->
+      <menu label="Nested Menu Name">
+ 	        <menuitem label="Action One" onclick="..."></menuitem>
+          <menuitem label="Action Two" onclick="..."></menuitem>
+          <menuitem label="Action Three" onclick="..."></menuitem>
+      </menu>
+  </menu>
+
+</div>
+
+</body>
+
+</html>
